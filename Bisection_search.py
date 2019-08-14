@@ -3,7 +3,7 @@ import random
 
 my_number = random.randint(1,10)
 
-user_guess = int(input("I am thinking of a number between 1 - 5, guess!\n"))
+user_guess = int(input("I am thinking of a number between 1 - 10, guess!\n"))
 
 while user_guess != my_number:
     if user_guess < my_number:
@@ -14,3 +14,4 @@ while user_guess != my_number:
 
 print("woho you got it")
 print(my_number)
+g
